@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Dosis');
+
+/* 
+    font-family: 'Berkshire Swash', cursive;
+
+    font-family: 'Dosis', sans-serif;
+*/
+
+.pro {
+    display:block;
+}
+ 
+*{
+    padding:0;
+    margin: 0;
+}
+
+/*/////////////////////////////////////*/
+
+/*     Intro Area     */
+
+
+.intro{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2rem;
+    color:white;
+    background: url('images/diapers.jpg') top left/cover no-repeat;
+    height: 80vh;
+    width:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-h{
+    font-size: 4em;
+}
+
+/*/////////////////////////////////////*/
+
+/*     About Area     */
+
+.about, .how-it-works, .what, .how-apply{
+    font-family: 'Dosis', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+    padding: 5%;
+    margin: 5%;
+}
+
+.h{
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+
+.p{
+    font-size: 1.8rem;
+    
+}
+
+
+/*/////////////////////////////////////*/
+
+/*     About Area     */
+
+.about{
+    background-color:#FA9EAA;
+    text-align: right;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.babies{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%
+        -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.blurb{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.blurb-what{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+
+/*/////////////////////////////////////*/
+
+/*     How it works Area     */
+
+.how-it-works{
+    background-color: #FAC8BE;
+    text-align: left;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+/*/////////////////////////////////////*/
+
+/*     What Area     */
+
+.what{
+    background-color: #FAEEC8;
+    font-family: 'Dosis', sans-serif;
+    color:#001041;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 5%;
+    margin: 5%;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.what-row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.lower{
+    list-style-type: circle;
+    margin-left: 30px;
+}
+
+ul{
+    padding: 25px 10%;
+}
+
+
+/*/////////////////////////////////////*/
+
+/*     How Apply Area     */
+
+.how-apply{
+    background-color: #7DC4CA;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color:#71C3C6;
+    margin: 0 50px;
+}
+
+.buttons{
+    display: flex;
+    flex-flow: row;
+}
+
+/*/////////////////////////////////////*/
+
+/*     Contact Area     */
+
+.contact{
+    background-color: #43888E;
+    font-family: 'Dosis', sans-serif;
+    padding: 5%;
+    margin: 5%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+p a{
+    color:#2274a5;
+    text-decoration: none;
+}
+
+p a:hover{
+    color:#5D5757;
+}
+
+
+
+
+/*/////////////////////////////////////*/
+
+/*     Footer Area     */
+
+footer{
+	position:inherit;
+	bottom:0;
+	display:block;
+    background-color: #75C9CC;
+    width:100%;
+    padding:10px;
+    color:black;
+    font-size: 1.4em;
+}
+
+.footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+}
+
+p a{
+    color:black;
+}
+
+p a:hover{
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+    #page {}
+}
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    .p {
+        padding:0;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .h{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .intro-h{
+        font-size: 3rem;
+    }
+    .upper, .lower{
+        text-align: left;
+    }
+    .about, .how-it-works, .what, .how-apply, .contact{
+        padding: 10px;
+        margin: 10px;
+    }
+    .babies, .blurb, .blurb-what{
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    footer{
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    .p{
+        padding:0;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .h{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .intro-h{
+        font-size: 3rem;
+    }
+    .upper, .lower{
+        text-align: left;
+    }
+    .about, .how-it-works, .what, .how-apply, .contact{
+        padding: 10px;
+        margin: 10px;
+    }
+    .babies, .blurb, .blurb-what{
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    footer{
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .container-fluid {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    .p{
+        padding:0;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .h{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .intro-h{
+        font-size: 3rem;
+    }
+    .upper, .lower{
+        text-align: left;
+    }
+    .about, .how-it-works, .what, .how-apply, .contact{
+        padding: 10px;
+        margin: 10px;
+    }
+    .babies, .blurb, .blurb-what{
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    footer{
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .container-fluid {
+        width: 320px;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        padding:0;
+        margin: 0;
+    }
+    .p{
+        padding:0;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .h{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .intro-h{
+        font-size: 3rem;
+    }
+    .upper, .lower{
+        text-align: left;
+    }
+    .about, .how-it-works, .what, .how-apply, .contact{
+        padding: 10px;
+        margin: 10px;
+    
+    }
+    .babies, .blurb, .blurb-what{
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    footer{
+        font-size: 1rem;
+        padding: 0;
+    }
+}
